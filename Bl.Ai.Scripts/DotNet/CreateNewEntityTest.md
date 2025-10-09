@@ -233,4 +233,6 @@ public class PaymentServiceTest
 
 - Now Create a test based on this entity:
 
-<add-your-code-here>
+```c#
+/*add-your-code-here*/
+```
