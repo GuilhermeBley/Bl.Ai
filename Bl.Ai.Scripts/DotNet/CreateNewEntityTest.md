@@ -138,7 +138,7 @@ public class PaymentService
 ```
 
 - Expected test output:
-```dotnet
+```c#
 namespace Smartec.Robos.Domain.Test.EntitiesTests.Financial;
 
 public class PaymentServiceTest
