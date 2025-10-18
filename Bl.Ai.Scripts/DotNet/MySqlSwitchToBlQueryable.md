@@ -127,7 +127,6 @@ return query;
 ```
 
 ## Observations
-- Use ``.
 - Switch `{0}`, `{1}` parameters to `CONVERT(@ParamName1 USING latin1)`, `CONVERT(@ParamName2 USING latin1)`
 
 ## What should be created
