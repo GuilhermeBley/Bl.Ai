@@ -125,6 +125,7 @@ protected override void OnModelCreating(ModelBuilder modelBuilder)
 - If mysql script allows null column, use `.IsRequired(false)`
 - Use the `HasColumnType` for each property
 - If model is provided, match the column name with the property model name
+- If the model was provided, any property type is `enum` and the mysql column is `varchar`, use the property config `HasConversion<string>()`
 
 ## What should be created
 So, do the same for this code:
