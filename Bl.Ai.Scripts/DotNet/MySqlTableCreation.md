@@ -52,6 +52,8 @@ CREATE TABLE `User` (
 ## Observations
 - If the model is `string`, the mysql type should be `varchar(250)`
 - If the model is `guid`, the mysql type should be `char(36)`
+- If the property has comments, add it into the column mysql comments
+- If the property contains 'Json' in the name or documentantion, set the mysql type as 'text CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci'
 
 ## What should be created
 
