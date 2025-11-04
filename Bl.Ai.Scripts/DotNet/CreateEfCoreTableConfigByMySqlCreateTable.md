@@ -130,9 +130,10 @@ protected override void OnModelCreating(ModelBuilder modelBuilder)
 ## What should be created
 So, do the same for this code:
 
-Obs. The model can be included in the code as well
+```sql
+```
 
-
+Obs. The model can be included in the code bellow:
 ```c#
 // _add_the_code_here
 ```
