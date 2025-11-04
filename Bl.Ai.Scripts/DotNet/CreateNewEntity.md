@@ -1,5 +1,6 @@
-Plase, Create a test for my application, I'll use it in my domain layer.
+Plase, Create a entity based on some properties, follow some entities examples bellow:
 
+## Examples
 - Example of my entity:
 ```c#
 /// <summary>
@@ -181,13 +182,19 @@ public class ExternalResourceConsumed : Entity
 }
 ```
 
-The class should be named as: `_class_name`
-The entity should have the follow method: 
+## Observations
+- The entity should have the follow method: 
 ```c#
 public static Result<@ClassNameHere> Create(/*put all the properties here*/)
 {
     // insert your code here
 }
 ```
+- Override Equals and GetHashCode
+- Should inherit `Entity`
+
+## What should be created
+
 The entity should have the follow properties:
+- The class should be named as: `_class_name`
 `_add_properties_here`
