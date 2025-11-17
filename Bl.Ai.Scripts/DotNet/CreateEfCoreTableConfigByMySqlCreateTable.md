@@ -131,6 +131,7 @@ protected override void OnModelCreating(ModelBuilder modelBuilder)
 So, do the same for this code:
 
 ```sql
+-- _add_the_code_here
 ```
 
 Obs. The model can be included in the code bellow:
