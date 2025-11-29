@@ -54,6 +54,8 @@ public class UserModel
 
 ## Observations
 - mysql `char(36)` should be converted to C# `Guid`
+- Use `PascalCase`, convert the column `RENAVAM` to `Renavam`
+- Use `PascalCase`, convert the column `REN_VAM` to `RenVam` or `ren_VAm` to `RenVam`
 
 ## What should be created
 So, create a model based on this mysql code:
